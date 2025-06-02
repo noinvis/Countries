@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Nonito";
+    src: url("../fonts/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf");
+}
+*{
+    font-family: "Nonito", sans-serif;
+    user-select: none;
+}
+button{
+    cursor: pointer;
+    transition: .3s;
+}
+body{
+    background-color: #fafafa;
+}
+.containers{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.search-input{
+    background-image: url("../images/search.svg");
+    background-repeat: no-repeat;
+    background-position: 32px center;
+}
